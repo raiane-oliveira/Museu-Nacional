@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F4F2EC url('../img/fundo.png') repeat-x;
+    font: 12px "lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.cabecalho ul, .conteudo-lateral ul, .rodape ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #af670a;
+}
+
+a:hover {
+    color: #227115;
+}
+
+/*Cabeçalho*/
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 248px;
+    cursor: pointer;
+}
+
+.cabecalho-menu ul {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho-menu a{
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.cabecalho-menu a:hover {
+    border-bottom: 0.8px solid #535858;
+}
+
+/*Conteúdos*/
+.conteudos {
+    display: flex; 
+    gap: 15px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.conteudo-principal h3 {
+    color: #236415;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.conteudo-video, .conteudo-mapa, .conteudo-exposicao, .conteudo-historia {
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+.conteudo-exposicao-menu {
+    padding-left: 40px;
+}
+
+.conteudo-historia-item {
+    padding-bottom: 5px;
+}
+
+.conteudo-lateral {
+    background-color: #EBE7DD;
+}
+
+.conteudo-lateral-formulario {
+    margin-top: 10px;
+    background-color: #CDC8B1;
+    padding: 25px;
+}
+
+.titulo-conteudo-lateral {
+    color: #86521a;
+    text-transform: uppercase;
+}
+
+.label-formulario {
+    font-size: 0.9em;
+    padding: 5px 10px;
+}
+
+input {
+    border: 1px solid #9B9271;
+}
+
+input[type="date"] {
+    width: 100px;
+    height: 25px;
+}
+
+input[type="number"] {
+    width: 35px;
+    height: 25px;
+}
+
+.botao {
+    border: none;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    background-color: #9B9271;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.galeria-de-fotos {
+    background-color: #EBE7DD;
+    padding: 20px;
+}
+
+.menu-galeria-de-fotos {
+    margin: 15px;
+}
+
+.menu-galeria-de-fotos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-galeria-de-fotos ul a {
+    background: url('../img/fundo-foto.png') no-repeat top;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    width: 126px;
+    height: 133px;
+}
+
+/*Rodapé*/
+
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    background: url('../img/fundo-rodape.png') no-repeat top center;
+}
+
+.menu-rodape ul {
+    display: flex;
+    text-transform: lowercase;
+}
+
+.rodape a {
+    padding: 10px;
+}
