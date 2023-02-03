@@ -2,7 +2,7 @@
 
 Um site estático de divulgação de um museu fictício, desenvolvido com HTML e CSS, para testar as minhas habilidades no curso de Desenvolvimento Web de Jamilton Damasceno e Jorge Sant Ana, na Udemy.
 
-![Foto do Site Museu Nacional](https://i.imgur.com/2V0Wnuk.png)
+<img src="https://i.imgur.com/2V0Wnuk.png" alt="Foto Museu Nacional">
 
 ## Técnicas e Tecnologias utilizadas
 
