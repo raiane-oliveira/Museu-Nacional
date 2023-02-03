@@ -8,7 +8,7 @@ Um site estático de divulgação de um museu fictício, desenvolvido com HTML e
 
 - ```HTML```: Tags semânticas
 - ```CSS```: Flexbox e Normalize CSS, que formata e corrige todas as exibições diferentes entre navegadores em um único padrão de estilo.
-- ```JavaScript```: Habilitar as tags semânticas do HTML, com **html5shiv.js**, e o Flexbox, com **flexibility.js**, para navegadores mais antigos.
+- ```JavaScript```: Habilitar as tags semânticas do HTML com **html5shiv.js**, e o Flexbox com **flexibility.js** para navegadores mais antigos.
 
 ## Aprendizados
 
